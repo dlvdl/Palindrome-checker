@@ -1,0 +1,79 @@
+* {
+    font-family: 'Poppins', sans-serif;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #aa57cc;
+}
+.wrapper {
+    background-color: white;
+    max-width: 500px;
+    padding: 20px 25px 15px;
+    border-radius: 7px;
+}
+header {
+        
+}
+.polindrom_checker__container {
+    
+}
+.polindrom_checker__title {
+    font-size: 27px;
+    font-weight: 500;
+}
+.polindrom_checker__text {
+    margin: 5px 0px 0px 0px;
+    font-size: 18px;
+    color: #474747;
+    line-height: 1.5;
+}
+.polindrom_checker__inputbox {
+    margin: 20px 0 27px;
+}
+.inputbox__input {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: 1px solid #999;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 0 17px;
+}
+.inputbox__input:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+.inputbox__button {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    margin-top: 20px;
+    font-size: 17px;
+    background-color: #aa57cc;
+    color: white;
+    cursor: pointer;
+    opacity: 0.7;
+    pointer-events: none; 
+    border-radius: 5px;    
+}
+.inputbox__button.active {
+    pointer-events: auto;
+    opacity: 1; 
+}
+.polindrom_checker__info {
+
+}
+.info_txt {
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 18px;
+    display: none;
+}
+.polindrom_word {
+    color: #aa57cc;
+}
