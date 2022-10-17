@@ -7,6 +7,7 @@
 body {
   display: flex;
   justify-content: center;
+  width: 100%;
   min-height: 100vh;
   align-items: center;
   background-color: #aa57cc;
@@ -14,13 +15,22 @@ body {
 .wrapper {
   background-color: white;
   width: 70%;
-  height: 70%;
   padding: 20px 25px 15px;
   border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+.polindrom_checker__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .polindrom_checker__title {
   font-size: 27px;
   font-weight: 500;
+  width: 100%;
 }
 .polindrom_checker__text {
   margin: 5px 0px 0px 0px;
